@@ -21,7 +21,13 @@ const App: Component = () => {
         <h1 class="text-3xl font-bold mb-2">Hey, I'm Quinn Vaughn 👋🏻</h1>
         <p class="text-lg mb-6 text-neutral-300">
           I build frontend software and I'm open to senior/staff level roles, as
-          well as freelance work.
+          well as freelance work. Most recently, I worked at{' '}
+          <Link
+            href="https://smacktechnologies.com"
+            text="Smack Technologies"
+          />
+          , where I was the first hire and build out the frontend and part of
+          the backend GraphQL/data layer as a Senior Software Engineer.
         </p>
         <div class="flex gap-4 flex-wrap mb-6 justify-center">
           <Link href="https://github.com/quinnvaughn" text="GitHub" />
