@@ -4,6 +4,8 @@ const skills = [
   'SolidJS',
   'TypeScript',
   'React',
+  'JavaScript',
+  'Svelte',
   'Functional Programming',
   'Node.js',
   'GraphQL',
@@ -39,7 +41,7 @@ const App: Component = () => {
           <Link href="mailto:qvaughn3@gmail.com" text="Email" />
         </div>
         <div class="mb-6 flex flex-col gap-3">
-          <h2 class="text-xl font-semibold mb-2">Skills & Tech I Like</h2>
+          <h2 class="text-xl font-semibold mb-2">Skills</h2>
           <div class="flex flex-wrap gap-2">
             <For each={skills}>{(skill) => <Tag text={skill} />}</For>
           </div>
