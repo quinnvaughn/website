@@ -20,7 +20,7 @@ const App: Component = () => {
   return (
     <div class="min-h-screen flex flex-col items-center justify-center bg-neutral-950 text-neutral-100 px4 gap-2">
       <div class="max-w-xl w-full rounded-2xl shadow-xl p-8 bg-neutral-900/70 backdrop-blur-md border border-neutral-800">
-        <h1 class="text-3xl font-bold mb-2">Hey, I'm Quinn Vaughn 👋🏻</h1>
+        <h1 class="text-3xl font-bold mb-2">Hi, I'm Quinn Vaughn 👋🏻</h1>
         <p class="text-lg mb-6 text-neutral-300">
           I build frontend software and I'm open to senior/staff level roles, as
           well as freelance work. Most recently, I worked at{' '}
