@@ -26,8 +26,9 @@ const App: Component = () => {
             href="https://smacktechnologies.com"
             text="Smack Technologies"
           />
-          , where I was the first hire and build out the frontend and part of
-          the backend GraphQL/data layer as a Senior Software Engineer.
+          , where I was the first hire and build out the frontend (not the
+          marketing page) and part of the backend GraphQL/data layer as a Senior
+          Software Engineer.
         </p>
         <div class="flex gap-4 flex-wrap mb-6 justify-center">
           <Link href="https://github.com/quinnvaughn" text="GitHub" />
