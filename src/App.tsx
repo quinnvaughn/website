@@ -18,7 +18,7 @@ const skills = [
 
 const App: Component = () => {
   return (
-    <div class="min-h-screen flex flex-col items-center justify-center bg-neutral-950 text-neutral-100 px4 gap-2">
+    <div class="min-h-screen flex flex-col items-center justify-center bg-neutral-950 text-neutral-100 p-4 gap-2">
       <div class="max-w-xl w-full rounded-2xl shadow-xl p-8 bg-neutral-900/70 backdrop-blur-md border border-neutral-800">
         <h1 class="text-3xl font-bold mb-2">Hi, I'm Quinn Vaughn 👋🏻</h1>
         <p class="text-lg mb-6 text-neutral-300">
@@ -47,7 +47,7 @@ const App: Component = () => {
           </div>
         </div>
       </div>
-      <p class="text-sm text-neutral-500">
+      <p class="text-sm text-neutral-500 text-center">
         Based in Santa Monica ☀️. Open to remote and (some) hybrid roles.
       </p>
     </div>
