@@ -28,9 +28,8 @@ const App: Component = () => {
             href="https://smacktechnologies.com"
             text="Smack Technologies"
           />
-          , where I was the first hire and build out the frontend (not the
-          marketing page) and part of the backend GraphQL/data layer as a Senior
-          Software Engineer.
+          , where I was the first hire and built out the frontend and part of
+          the backend GraphQL/data layer as a Senior Software Engineer.
         </p>
         <div class="flex gap-4 flex-wrap mb-6 justify-center">
           <Link href="https://github.com/quinnvaughn" text="GitHub" />
@@ -44,6 +43,26 @@ const App: Component = () => {
           <h2 class="text-xl font-semibold mb-2">Skills</h2>
           <div class="flex flex-wrap gap-2">
             <For each={skills}>{(skill) => <Tag text={skill} />}</For>
+          </div>
+        </div>
+        <div class="mb-6 flex flex-col gap-3">
+          <h2 class="text-xl font-semibold mb-2">Featured Project</h2>
+          <div class="flex flex-wrap gap-2">
+            <Link
+              href="https://github.com/quinnvaughn/urban-fabric-client"
+              text="Urban Fabric (Client)"
+            />
+            <Link
+              href="https://github.com/quinnvaughn/urban-fabric-server"
+              text="Urban Fabric (Server)"
+            />
+            <p class="text-neutral-300">
+              Urban Fabric is a web application to simulate urban planning and
+              development scenarios. It uses Tanstack Start and React for the
+              frontend, and Bun with Pothos and Drizzle ORM for the backend. The
+              project is a great example of my skills in building full-stack
+              applications with modern technologies.
+            </p>
           </div>
         </div>
       </div>
