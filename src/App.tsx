@@ -71,7 +71,7 @@ const App: Component = () => {
         </div>
       </div>
       <p class="text-sm text-neutral-500 text-center">
-        Based in Santa Monica ☀️. Open to remote and (some) hybrid roles.
+        Based in Santa Monica ☀️. Open to remote and (some) hybrid roles
       </p>
     </div>
   )
