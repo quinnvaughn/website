@@ -32,6 +32,10 @@ const App: Component = () => {
           the backend GraphQL/data layer as a Senior Software Engineer.
         </p>
         <div class="flex gap-4 flex-wrap mb-6 justify-center">
+          <Link
+            href="https://drive.google.com/file/d/1mS-6zns16Nk9L1dSv5E4AvVeDB2rNwFh/view?usp=sharing"
+            text="Resume"
+          />
           <Link href="https://github.com/quinnvaughn" text="GitHub" />
           <Link
             href="https://www.linkedin.com/in/quinn-vaughn-19bb2564/"
