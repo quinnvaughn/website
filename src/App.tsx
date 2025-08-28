@@ -53,12 +53,8 @@ const App: Component = () => {
           <h2 class="text-xl font-semibold mb-2">Featured Project</h2>
           <div class="flex flex-wrap gap-2">
             <Link
-              href="https://github.com/quinnvaughn/urban-fabric-client"
-              text="Urban Fabric (Client)"
-            />
-            <Link
-              href="https://github.com/quinnvaughn/urban-fabric-server"
-              text="Urban Fabric (Server)"
+              href="https://urbanfabric.app"
+              text="Urban Fabric Landing Page"
             />
             <p class="text-neutral-300">
               Urban Fabric is a web application to simulate urban planning and
