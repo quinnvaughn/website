@@ -33,7 +33,7 @@ const App: Component = () => {
         </p>
         <div class="flex gap-4 flex-wrap mb-6 justify-center">
           <Link
-            href="https://drive.google.com/file/d/1mS-6zns16Nk9L1dSv5E4AvVeDB2rNwFh/view?usp=sharing"
+            href="https://drive.google.com/file/d/1L48C4S1yTunp86SVgFe6wwEnTozHT69H/view?usp=sharing"
             text="Resume"
           />
           <Link href="https://github.com/quinnvaughn" text="GitHub" />
@@ -50,19 +50,18 @@ const App: Component = () => {
           </div>
         </div>
         <div class="mb-6 flex flex-col gap-3">
-          <h2 class="text-xl font-semibold mb-2">Featured Project</h2>
-          <div class="flex flex-wrap gap-2">
-            <Link
-              href="https://urbanfabric.app"
-              text="Urban Fabric Landing Page"
+          <h2 class="text-xl font-semibold mb-2">Featured Projects</h2>
+          <div class="flex gap-4">
+            <Project
+              href="https://craftmybuild.gg"
+              title="Craft My Build"
+              description="A web application for gamers to create and share custom game builds. Actively maintained."
             />
-            <p class="text-neutral-300">
-              Urban Fabric is a web application to simulate urban planning and
-              development scenarios. It uses Tanstack Start and React for the
-              frontend, and Bun with Pothos and Drizzle ORM for the backend. The
-              project is a great example of my skills in building full-stack
-              applications with modern technologies.
-            </p>
+            <Project
+              href="https://urbanfabric.app"
+              title="Urban Fabric"
+              description="A web application to simulate urban planning and development scenarios. Currently on pause."
+            />
           </div>
         </div>
       </div>
@@ -94,4 +93,12 @@ function Tag(props: { text: string }) {
   )
 }
 
+function Project(props: { href: string; title: string; description: string }) {
+  return (
+    <div class="flex flex-wrap gap-2">
+      <Link href={props.href} text={props.title} />
+      <p class="text-neutral-300">{props.description}</p>
+    </div>
+  )
+}
 export default App
