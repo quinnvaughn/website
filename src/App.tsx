@@ -53,14 +53,14 @@ const App: Component = () => {
           <h2 class="text-xl font-semibold mb-2">Featured Projects</h2>
           <div class="flex gap-4">
             <Project
+              href="https://urbanfabric.app"
+              title="Urban Fabric"
+              description="Urban Fabric gives anyone the tools to reimagine their city on a real map and publish proposals that communities, advocates, and planners can actually see."
+            />
+            <Project
               href="https://craftmybuild.gg"
               title="Craft My Build"
               description="A web application for gamers to create and share custom game builds. Actively maintained."
-            />
-            <Project
-              href="https://urbanfabric.app"
-              title="Urban Fabric"
-              description="A web application to simulate urban planning and development scenarios. Currently on pause."
             />
           </div>
         </div>
