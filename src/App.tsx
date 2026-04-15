@@ -57,11 +57,6 @@ const App: Component = () => {
               title="Urban Fabric"
               description="Urban Fabric gives anyone the tools to reimagine their city on a real map and publish proposals that communities, advocates, and planners can actually see."
             />
-            <Project
-              href="https://craftmybuild.gg"
-              title="Craft My Build"
-              description="A web application for gamers to create and share custom game builds. Actively maintained."
-            />
           </div>
         </div>
       </div>
