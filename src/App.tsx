@@ -1,19 +1,23 @@
 import { For, type Component } from 'solid-js'
 
 const skills = [
-  'SolidJS',
-  'TypeScript',
   'React',
+  'TypeScript',
   'JavaScript',
-  'Svelte',
-  'Functional Programming',
-  'Node.js',
   'GraphQL',
   'CSS-in-JSS',
   'TanstackStart',
   'ts-pattern',
+  'SolidJS',
+  'Svelte',
+  'Functional Programming',
+  'Node.js',
+  'PostgreSQL',
+  'Redis',
   'Pothos',
   'Drizzle ORM',
+  'Bun',
+  'Database schema design',
 ]
 
 const App: Component = () => {
