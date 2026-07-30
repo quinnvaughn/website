@@ -1,4 +1,4 @@
-import { For, type Component } from 'solid-js'
+import { type Component, For } from 'solid-js'
 
 const skills = [
   'React',
@@ -40,7 +40,7 @@ const App: Component = () => {
         </p>
         <div class="flex gap-4 flex-wrap mb-6 justify-center">
           <Link
-            href="https://drive.google.com/file/d/1L48C4S1yTunp86SVgFe6wwEnTozHT69H/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xLieV87_KQAlPdNvB1HdusN-0iGBf3qk/view?usp=sharing"
             text="Resume"
           />
           <Link href="https://github.com/quinnvaughn" text="GitHub" />
@@ -63,6 +63,11 @@ const App: Component = () => {
               href="https://urbanfabric.app"
               title="Urban Fabric"
               description="Urban Fabric gives anyone the tools to reimagine their city on a real map and publish proposals that communities, advocates, and planners can actually see."
+            />
+            <Project
+              href="https://la-kickball.fly.dev/"
+              title="Los Angeles Kickball"
+              description="Currently in progress work for my own kickball league I'm working on. Got mad at my old kickball league, so I'm building my own. Will have a dedicated domain that I already purchased. Fake seed data at the moment."
             />
           </div>
         </div>
