@@ -67,7 +67,7 @@ const App: Component = () => {
             <Project
               href="https://la-kickball.fly.dev/"
               title="Los Angeles Kickball"
-              description="Currently in progress work for my own kickball league I'm working on. Got mad at my old kickball league, so I'm building my own. Will have a dedicated domain that I already purchased. Fake seed data at the moment."
+              description="Currently in progress work for my own kickball league I'm working on. Will have a dedicated domain that I already purchased. Fake seed data at the moment."
             />
           </div>
         </div>
