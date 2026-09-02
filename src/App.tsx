@@ -60,6 +60,11 @@ const App: Component = () => {
           <h2 class="text-xl font-semibold mb-2">Featured Projects</h2>
           <div class="flex gap-4">
             <Project
+              href="https://calledmyshot.com"
+              title="Called My Shot"
+              description="Called My Shot is a web app that allows users to create and share their own sports predictions, and see how they stack up against others."
+            />
+            <Project
               href="https://urbanfabric.app"
               title="Urban Fabric"
               description="Urban Fabric gives anyone the tools to reimagine their city on a real map and publish proposals that communities, advocates, and planners can actually see."
