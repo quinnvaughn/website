@@ -65,9 +65,9 @@ const App: Component = () => {
               description="Called My Shot is a web app that allows users to create and share their own sports predictions, and see how they stack up against others."
             />
             <Project
-              href="https://urbanfabric.app"
+              href="https://github.com/quinnvaughn/urban-fabric-client"
               title="Urban Fabric"
-              description="Urban Fabric gives anyone the tools to reimagine their city on a real map and publish proposals that communities, advocates, and planners can actually see."
+              description="Urban Fabric gives anyone the tools to reimagine their city on a real map and publish proposals that communities, advocates, and planners can actually see. Not currently live."
             />
             <Project
               href="https://la-kickball.fly.dev/"
